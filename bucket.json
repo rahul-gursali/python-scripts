@@ -1,9 +1,0 @@
-import json
-
-with open("buckets.json") as f:
-    data = json.load(f)
-
-for bucket in data["Buckets"]:
-    print(bucket["Name"])
-
-# find all buckets from .json file
